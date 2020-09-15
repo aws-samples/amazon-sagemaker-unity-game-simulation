@@ -36,6 +36,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -582,4 +584,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/RollerBall.unity
-  playerPath: /Users/zenthori/work/RollerBallAdvanced/unity-build/RollerBallSimulation.x86_64
+  playerPath: /Users/zenthori/work/RollerBallSimulation/unity-build/RollerBallSimulation.x86_64

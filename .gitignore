@@ -1,3 +1,14 @@
+# OS generated files
 .DS_Store
+
+# Unity generated files
+Temp/
+Obj/
+Library/
+
+# Application generated files
 Assets/Resources/*RollerBallSummaryLog.csv
 Assets/Resources/*RollerBallSummaryLog.csv.meta
+
+# Visual Studio Code
+.vscode/
