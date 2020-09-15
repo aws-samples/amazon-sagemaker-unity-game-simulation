@@ -6,10 +6,17 @@ Temp/
 Obj/
 Logs/
 Library/
+!Library/LastSceneManagerSetup.txt
+*.sln
+*.csproj
+*.log
 
 # Application generated files
 Assets/Resources/*RollerBallSummaryLog.csv
 Assets/Resources/*RollerBallSummaryLog.csv.meta
+Assets/ML-Agents/Timers/RollerBall_timers.json
+Assets/ML-Agents/Timers/RollerBall_timers.json.meta
 
 # Visual Studio Code
-.vscode/
+.vscode
+.vs
