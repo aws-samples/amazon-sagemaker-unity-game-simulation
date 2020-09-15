@@ -1,0 +1,8 @@
+{
+    "training": { 
+        "numObstacles": [1, 2, 3, 4, 5]
+    },
+    "simulation": {
+        "numObstacles": [1, 3, 5, 7, 9, 11]
+    }
+}

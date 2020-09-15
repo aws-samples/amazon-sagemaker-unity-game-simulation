@@ -1,0 +1,259 @@
+﻿play_id,number_of_obstacles,cleared?,status,message,created_at
+1,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:07 PM
+2,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:07 PM
+3,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:07 PM
+4,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:07 PM
+5,1,True,1,Success! You reached a target.,9/15/2020 1:05:10 PM
+6,11,True,1,Success! You reached a target.,9/15/2020 1:05:10 PM
+7,1,True,1,Success! You reached a target.,9/15/2020 1:05:12 PM
+8,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:12 PM
+9,1,True,1,Success! You reached a target.,9/15/2020 1:05:13 PM
+10,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:14 PM
+11,11,False,3,Failed! You fell off the floor.,9/15/2020 1:05:15 PM
+12,1,True,1,Success! You reached a target.,9/15/2020 1:05:17 PM
+13,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:18 PM
+14,1,True,1,Success! You reached a target.,9/15/2020 1:05:19 PM
+15,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:19 PM
+16,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:20 PM
+17,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:20 PM
+18,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:22 PM
+19,5,True,1,Success! You reached a target.,9/15/2020 1:05:23 PM
+20,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:23 PM
+21,9,True,1,Success! You reached a target.,9/15/2020 1:05:23 PM
+22,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:23 PM
+23,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:25 PM
+24,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:25 PM
+25,1,True,1,Success! You reached a target.,9/15/2020 1:05:26 PM
+26,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:26 PM
+27,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:26 PM
+28,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:26 PM
+29,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:26 PM
+30,7,True,1,Success! You reached a target.,9/15/2020 1:05:27 PM
+31,1,True,1,Success! You reached a target.,9/15/2020 1:05:28 PM
+32,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:28 PM
+33,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:28 PM
+34,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:28 PM
+35,7,False,3,Failed! You fell off the floor.,9/15/2020 1:05:31 PM
+36,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:31 PM
+37,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:31 PM
+38,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:31 PM
+39,9,True,1,Success! You reached a target.,9/15/2020 1:05:33 PM
+40,5,True,1,Success! You reached a target.,9/15/2020 1:05:33 PM
+41,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:33 PM
+42,3,True,1,Success! You reached a target.,9/15/2020 1:05:45 PM
+43,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:46 PM
+44,11,True,1,Success! You reached a target.,9/15/2020 1:05:46 PM
+45,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:46 PM
+46,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:46 PM
+47,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:46 PM
+48,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:46 PM
+49,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:47 PM
+50,1,True,1,Success! You reached a target.,9/15/2020 1:05:51 PM
+51,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:51 PM
+52,5,True,1,Success! You reached a target.,9/15/2020 1:05:51 PM
+53,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:52 PM
+54,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:52 PM
+55,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:52 PM
+56,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:54 PM
+57,1,True,1,Success! You reached a target.,9/15/2020 1:05:57 PM
+58,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:57 PM
+59,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:58 PM
+60,9,True,1,Success! You reached a target.,9/15/2020 1:05:58 PM
+61,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:58 PM
+62,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:58 PM
+63,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:59 PM
+64,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:59 PM
+65,5,True,1,Success! You reached a target.,9/15/2020 1:05:59 PM
+66,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:05:59 PM
+67,3,True,1,Success! You reached a target.,9/15/2020 1:06:01 PM
+68,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:01 PM
+69,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:03 PM
+70,11,True,1,Success! You reached a target.,9/15/2020 1:06:04 PM
+71,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:04 PM
+72,3,True,1,Success! You reached a target.,9/15/2020 1:06:05 PM
+73,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:05 PM
+74,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:07 PM
+75,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:07 PM
+76,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:12 PM
+77,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:12 PM
+78,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:12 PM
+79,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:12 PM
+80,1,True,1,Success! You reached a target.,9/15/2020 1:06:14 PM
+81,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:14 PM
+82,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:14 PM
+83,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:14 PM
+84,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:14 PM
+85,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:14 PM
+86,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:14 PM
+87,7,True,1,Success! You reached a target.,9/15/2020 1:06:15 PM
+88,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:17 PM
+89,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:17 PM
+90,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:17 PM
+91,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:17 PM
+92,1,True,1,Success! You reached a target.,9/15/2020 1:06:19 PM
+93,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:21 PM
+94,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:21 PM
+95,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:21 PM
+96,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:22 PM
+97,1,True,1,Success! You reached a target.,9/15/2020 1:06:25 PM
+98,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:25 PM
+99,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:25 PM
+100,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:27 PM
+101,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:27 PM
+102,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:27 PM
+103,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:27 PM
+104,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:30 PM
+105,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:30 PM
+106,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:30 PM
+107,1,True,1,Success! You reached a target.,9/15/2020 1:06:42 PM
+108,3,True,1,Success! You reached a target.,9/15/2020 1:06:44 PM
+109,9,True,1,Success! You reached a target.,9/15/2020 1:06:44 PM
+110,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:44 PM
+111,3,True,1,Success! You reached a target.,9/15/2020 1:06:44 PM
+112,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:44 PM
+113,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:46 PM
+114,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:46 PM
+115,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:46 PM
+116,5,False,3,Failed! You fell off the floor.,9/15/2020 1:06:47 PM
+117,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:48 PM
+118,3,True,1,Success! You reached a target.,9/15/2020 1:06:50 PM
+119,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:50 PM
+120,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:51 PM
+121,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:51 PM
+122,3,True,1,Success! You reached a target.,9/15/2020 1:06:51 PM
+123,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:53 PM
+124,7,True,1,Success! You reached a target.,9/15/2020 1:06:54 PM
+125,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:54 PM
+126,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:54 PM
+127,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:06:56 PM
+128,1,False,3,Failed! You fell off the floor.,9/15/2020 1:06:58 PM
+129,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:00 PM
+130,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:01 PM
+131,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:01 PM
+132,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:02 PM
+133,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:03 PM
+134,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:03 PM
+135,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:04 PM
+136,3,True,1,Success! You reached a target.,9/15/2020 1:07:04 PM
+137,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:04 PM
+138,1,True,1,Success! You reached a target.,9/15/2020 1:07:05 PM
+139,1,True,1,Success! You reached a target.,9/15/2020 1:07:05 PM
+140,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:07 PM
+141,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:07 PM
+142,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:08 PM
+143,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:08 PM
+144,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:10 PM
+145,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:10 PM
+146,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:10 PM
+147,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:10 PM
+148,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:10 PM
+149,3,True,1,Success! You reached a target.,9/15/2020 1:07:10 PM
+150,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:10 PM
+151,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:11 PM
+152,1,True,1,Success! You reached a target.,9/15/2020 1:07:15 PM
+153,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:15 PM
+154,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:15 PM
+155,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:15 PM
+156,1,True,1,Success! You reached a target.,9/15/2020 1:07:16 PM
+157,1,True,1,Success! You reached a target.,9/15/2020 1:07:19 PM
+158,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:19 PM
+159,7,False,3,Failed! You fell off the floor.,9/15/2020 1:07:22 PM
+160,1,True,1,Success! You reached a target.,9/15/2020 1:07:24 PM
+161,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:24 PM
+162,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:24 PM
+163,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:24 PM
+164,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:24 PM
+165,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:25 PM
+166,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:25 PM
+167,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:25 PM
+168,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:25 PM
+169,7,True,1,Success! You reached a target.,9/15/2020 1:07:25 PM
+170,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:25 PM
+171,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:26 PM
+172,5,True,1,Success! You reached a target.,9/15/2020 1:07:26 PM
+173,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:26 PM
+174,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:26 PM
+175,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:27 PM
+176,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:29 PM
+177,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:29 PM
+178,3,True,1,Success! You reached a target.,9/15/2020 1:07:29 PM
+179,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:29 PM
+180,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:29 PM
+181,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:29 PM
+182,11,True,1,Success! You reached a target.,9/15/2020 1:07:30 PM
+183,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:30 PM
+184,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:31 PM
+185,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:31 PM
+186,11,True,1,Success! You reached a target.,9/15/2020 1:07:31 PM
+187,3,True,1,Success! You reached a target.,9/15/2020 1:07:33 PM
+188,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:33 PM
+189,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:39 PM
+190,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:42 PM
+191,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:42 PM
+192,7,True,1,Success! You reached a target.,9/15/2020 1:07:42 PM
+193,1,True,1,Success! You reached a target.,9/15/2020 1:07:42 PM
+194,3,True,1,Success! You reached a target.,9/15/2020 1:07:46 PM
+195,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:46 PM
+196,1,True,1,Success! You reached a target.,9/15/2020 1:07:49 PM
+197,3,True,1,Success! You reached a target.,9/15/2020 1:07:49 PM
+198,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+199,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+200,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+201,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+202,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+203,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+204,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:49 PM
+205,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:50 PM
+206,5,False,3,Failed! You fell off the floor.,9/15/2020 1:07:55 PM
+207,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:55 PM
+208,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:58 PM
+209,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:59 PM
+210,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:59 PM
+211,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:07:59 PM
+212,3,True,1,Success! You reached a target.,9/15/2020 1:08:00 PM
+213,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:02 PM
+214,7,True,1,Success! You reached a target.,9/15/2020 1:08:03 PM
+215,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:03 PM
+216,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:05 PM
+217,7,True,1,Success! You reached a target.,9/15/2020 1:08:05 PM
+218,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:05 PM
+219,11,False,3,Failed! You fell off the floor.,9/15/2020 1:08:09 PM
+220,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:14 PM
+221,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:14 PM
+222,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:14 PM
+223,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:14 PM
+224,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:15 PM
+225,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:16 PM
+226,3,True,1,Success! You reached a target.,9/15/2020 1:08:17 PM
+227,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:19 PM
+228,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:19 PM
+229,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:19 PM
+230,1,True,1,Success! You reached a target.,9/15/2020 1:08:21 PM
+231,3,True,1,Success! You reached a target.,9/15/2020 1:08:21 PM
+232,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:21 PM
+233,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:21 PM
+234,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:22 PM
+235,3,True,1,Success! You reached a target.,9/15/2020 1:08:22 PM
+236,1,True,1,Success! You reached a target.,9/15/2020 1:08:23 PM
+237,1,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:23 PM
+238,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:23 PM
+239,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:24 PM
+240,1,True,1,Success! You reached a target.,9/15/2020 1:08:29 PM
+241,9,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:29 PM
+242,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:29 PM
+243,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:32 PM
+244,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:32 PM
+245,1,True,1,Success! You reached a target.,9/15/2020 1:08:36 PM
+246,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:36 PM
+247,9,True,1,Success! You reached a target.,9/15/2020 1:08:36 PM
+248,1,True,1,Success! You reached a target.,9/15/2020 1:08:38 PM
+249,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:39 PM
+250,11,False,3,Failed! You fell off the floor.,9/15/2020 1:08:40 PM
+251,3,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:40 PM
+252,3,True,1,Success! You reached a target.,9/15/2020 1:08:41 PM
+253,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:41 PM
+254,7,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:43 PM
+255,5,False,3,Failed! You fell off the floor.,9/15/2020 1:08:45 PM
+256,11,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:50 PM
+257,5,False,2,Failed! You collided with an abstacle.,9/15/2020 1:08:50 PM
+258,1,True,1,Success! You reached a target.,9/15/2020 1:08:51 PM
