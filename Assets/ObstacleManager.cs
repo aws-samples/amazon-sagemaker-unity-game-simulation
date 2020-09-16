@@ -28,8 +28,8 @@ public class ObstacleManager : MonoBehaviour
     void Start()
     {
         obstacleObjs = new List<GameObject>();
+        // Get parameters from config file
         GetConfigParams();
-
     }
 
     // Reset obstacle objects and create new instances
@@ -61,6 +61,14 @@ public class ObstacleManager : MonoBehaviour
     {
         string configString = Resources.Load<TextAsset>(configFileName).ToString();
         ConfigJson obj = JsonUtility.FromJson<ConfigJson>(configString);
-        numObstaclesArray = obj.simulation.numObstacles;
+        
+        // Read config associated with executed mode
+        if (RollerAgent.IsTrainingMode()) {
+            numObstaclesArray = obj.training.numObstacles;
+            Debug.Log("taining");
+        } else {
+            numObstaclesArray = obj.simulation.numObstacles;
+            Debug.Log("simulation");
+        }
     }
 }

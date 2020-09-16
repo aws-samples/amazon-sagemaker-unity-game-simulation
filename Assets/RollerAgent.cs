@@ -18,23 +18,23 @@ public class RollerAgent : Agent
     void Start ()
     {
         rBody = GetComponent<Rigidbody>();
-        string datetimeStr = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
-        string filePath = Application.dataPath + "/Resources/" + datetimeStr + logName;
-        sw = new StreamWriter(filePath, true, Encoding.UTF8);
-        // header
-        SaveLog(0);
-        // For debug
-        if (IsTrainingMode()) {
-            Debug.Log("taining");
-        } else {
-            Debug.Log("simulation");
+        if (IsTrainingMode() == false) 
+        {
+            string datetimeStr = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            string filePath = Application.dataPath + "/Resources/" + datetimeStr + logName;
+            sw = new StreamWriter(filePath, true, Encoding.UTF8);
+            // header
+            SaveLog(0);
         }
     }
 
     void OnApplicationQuit()
     {
-        sw.Flush();
-        sw.Close();
+        if (IsTrainingMode() == false)
+        {
+            sw.Flush();
+            sw.Close();
+        }
     }
 
     public override void OnEpisodeBegin()
@@ -82,7 +82,7 @@ public class RollerAgent : Agent
         // Reached target
         if (distanceToTarget < 1.42f)
         {
-            SaveLog(1);
+            if (IsTrainingMode() == false) SaveLog(1);
             SetReward(1.0f);
             EndEpisode();
             return;
@@ -94,7 +94,7 @@ public class RollerAgent : Agent
             float distanceToActor = Vector3.Distance(this.transform.localPosition, actor.transform.localPosition);
             if (distanceToActor < 1.42f)
             {
-                SaveLog(2);
+                if (IsTrainingMode() == false) SaveLog(2);
                 SetReward(-1.0f);
                 EndEpisode();
                 break;
@@ -104,7 +104,7 @@ public class RollerAgent : Agent
         // Fell off platform
         if (this.transform.localPosition.y < 0)
         {
-            SaveLog(3);
+            if (IsTrainingMode() == false) SaveLog(3);
             SetReward(-1.0f);
             EndEpisode();
         }
@@ -116,12 +116,15 @@ public class RollerAgent : Agent
         actionsOut[1] = Input.GetAxis("Vertical");
     }
 
-    public bool IsTrainingMode() {
+    public static bool IsTrainingMode()
+    {
         return Academy.Instance.IsCommunicatorOn;
     }
 
     public void SaveLog(int status)
     {
+        if (IsTrainingMode()) return;
+
         string message = "";
         string[] record = new string[6];
 
