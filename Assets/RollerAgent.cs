@@ -23,6 +23,12 @@ public class RollerAgent : Agent
         sw = new StreamWriter(filePath, true, Encoding.UTF8);
         // header
         SaveLog(0);
+        // For debug
+        if (IsTrainingMode()) {
+            Debug.Log("taining");
+        } else {
+            Debug.Log("simulation");
+        }
     }
 
     void OnApplicationQuit()
@@ -108,6 +114,10 @@ public class RollerAgent : Agent
     {
         actionsOut[0] = Input.GetAxis("Horizontal");
         actionsOut[1] = Input.GetAxis("Vertical");
+    }
+
+    public bool IsTrainingMode() {
+        return Academy.Instance.IsCommunicatorOn;
     }
 
     public void SaveLog(int status)

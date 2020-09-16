@@ -28,7 +28,7 @@ public class ObstacleManager : MonoBehaviour
     void Start()
     {
         obstacleObjs = new List<GameObject>();
-        getConfigParams();
+        GetConfigParams();
 
     }
 
@@ -57,7 +57,7 @@ public class ObstacleManager : MonoBehaviour
         }
     }
 
-    private void getConfigParams()
+    private void GetConfigParams()
     {
         string configString = Resources.Load<TextAsset>(configFileName).ToString();
         ConfigJson obj = JsonUtility.FromJson<ConfigJson>(configString);
