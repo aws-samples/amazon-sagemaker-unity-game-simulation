@@ -21,8 +21,10 @@ public class RollerAgent : Agent
         if (IsTrainingMode() == false) 
         {
             string datetimeStr = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
-            string filePath = Application.dataPath + "/Resources/" + datetimeStr + logName;
-            sw = new StreamWriter(filePath, true, Encoding.UTF8);
+            string filePath = Application.dataPath + "/Logs";
+            if (!Directory.Exists(filePath)) Directory.CreateDirectory(filePath);
+            string logFile = filePath + "/" + datetimeStr + logName;
+            sw = new StreamWriter(logFile, true, Encoding.UTF8);
             // header
             SaveLog(0);
         }
@@ -118,7 +120,8 @@ public class RollerAgent : Agent
 
     public static bool IsTrainingMode()
     {
-        return Academy.Instance.IsCommunicatorOn;
+        // return Academy.Instance.IsCommunicatorOn;
+        return false;
     }
 
     public void SaveLog(int status)
@@ -177,5 +180,6 @@ public class RollerAgent : Agent
         Debug.Log(message);
         string csv = string.Join(",", record);
         sw.WriteLine(csv);
+        sw.Flush();
     }
 }

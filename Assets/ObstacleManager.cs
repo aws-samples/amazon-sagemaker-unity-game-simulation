@@ -60,6 +60,7 @@ public class ObstacleManager : MonoBehaviour
     private void GetConfigParams()
     {
         string configString = Resources.Load<TextAsset>(configFileName).ToString();
+        // string configString = System.IO.File.ReadAllText(Application.dataPath + "/" + configFileName + ".json");
         ConfigJson obj = JsonUtility.FromJson<ConfigJson>(configString);
         
         // Read config associated with executed mode

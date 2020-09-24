@@ -653,7 +653,7 @@ MonoBehaviour:
     VectorActionSize: 02000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
-  m_Model: {fileID: 5022602860645237092, guid: 5a155a4341f774ad7868345b00d045b3, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 12edb4e7d62dd4f5598b005de26b0dd9, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: VisualObservationRollerBall
