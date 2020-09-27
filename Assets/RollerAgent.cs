@@ -57,30 +57,21 @@ public class RollerAgent : Agent
         episodeCount++;
     }
 
-    // public override void CollectObservations(VectorSensor sensor)
-    // { 
-    //     // Target and Agent positions
-    //     sensor.AddObservation(Target.localPosition);
-    //     sensor.AddObservation(this.transform.localPosition);
-
-    //     // Agent velocity
-    //     sensor.AddObservation(rBody.velocity.x);
-    //     sensor.AddObservation(rBody.velocity.z);
-    // }
-
-    public float speed = 10;
     public override void OnActionReceived(float[] vectorAction)
     {
-        // Actions, size = 2
+        // Actions, Descrete, Branch size = 1, 5 steps
+        int action = (int)vectorAction[0];
         Vector3 controlSignal = Vector3.zero;
-        controlSignal.x = vectorAction[0];
-        controlSignal.z = vectorAction[1];
-        rBody.AddForce(controlSignal * speed);
+        if (action == 1) controlSignal.z -= 0.1f;
+        if (action == 2) controlSignal.z += 0.1f;
+        if (action == 3) controlSignal.x -= 0.1f;
+        if (action == 4) controlSignal.x += 0.1f;
+        this.transform.localPosition += controlSignal;
+
+        // Calculate distance to target
+        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
 
         // Rewards
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
-//        float distanceToObstacle = Vector3.Distance(this.transform.localPosition, Obstacle.localPosition);
-
         // Reached target
         if (distanceToTarget < 1.42f)
         {
@@ -114,8 +105,15 @@ public class RollerAgent : Agent
 
     public override void Heuristic(float[] actionsOut)
     {
-        actionsOut[0] = Input.GetAxis("Horizontal");
-        actionsOut[1] = Input.GetAxis("Vertical");
+        // actionsOut[0] = Input.GetAxis("Horizontal");
+        // actionsOut[1] = Input.GetAxis("Vertical");
+        float[] action = new float[1];
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        if (v < 0.0f) actionsOut[0] = 1;
+        if (v > 0.0f) actionsOut[0] = 2;
+        if (h < 0.0f) actionsOut[0] = 3;
+        if (h > 0.0f) actionsOut[0] = 4;
     }
 
     public static bool IsTrainingMode()

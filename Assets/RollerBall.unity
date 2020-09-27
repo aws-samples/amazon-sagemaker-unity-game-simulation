@@ -634,7 +634,6 @@ MonoBehaviour:
   MaxStep: 0
   Target: {fileID: 1772034642}
   obstacle: {fileID: 1890892158}
-  speed: 10
 --- !u!114 &1661512711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,9 +649,9 @@ MonoBehaviour:
   m_BrainParameters:
     VectorObservationSize: 0
     NumStackedVectorObservations: 1
-    VectorActionSize: 02000000
+    VectorActionSize: 05000000
     VectorActionDescriptions: []
-    VectorActionSpaceType: 1
+    VectorActionSpaceType: 0
   m_Model: {fileID: 5022602860645237092, guid: 12edb4e7d62dd4f5598b005de26b0dd9, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
