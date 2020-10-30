@@ -2,11 +2,13 @@
 .DS_Store
 
 # Unity generated files
-Temp/
-Obj/
-Logs/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
 Logs.meta
-Library/
 !Library/LastSceneManagerSetup.txt
 *.sln
 *.csproj
