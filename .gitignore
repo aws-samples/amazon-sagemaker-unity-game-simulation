@@ -15,8 +15,8 @@ Logs.meta
 *.log
 
 # Application generated files
-Assets/ML-Agents/Timers/RollerBall_timers.json
-Assets/ML-Agents/Timers/RollerBall_timers.json.meta
+RollerBall/Assets/ML-Agents/Timers/RollerBall_timers.json
+RollerBall/Assets/ML-Agents/Timers/RollerBall_timers.json.meta
 
 # Visual Studio Code
 .vscode
