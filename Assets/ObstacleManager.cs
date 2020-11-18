@@ -64,12 +64,12 @@ public class ObstacleManager : MonoBehaviour
         ConfigJson obj = JsonUtility.FromJson<ConfigJson>(configString);
         
         // Read config associated with executed mode
-        if (RollerAgent.IsTrainingMode()) {
-            numObstaclesArray = obj.training.numObstacles;
-            Debug.Log("taining");
-        } else {
+        if (RollerAgent.IsSimulationMode()) {
             numObstaclesArray = obj.simulation.numObstacles;
             Debug.Log("simulation");
+        } else {
+            numObstaclesArray = obj.training.numObstacles;
+            Debug.Log("taining");
         }
     }
 }

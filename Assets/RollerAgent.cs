@@ -15,10 +15,10 @@ public class RollerAgent : Agent
     private static string logName = "RollerBallSummaryLog.csv";
     private int episodeCount = 0;
 
-    void Start ()
+    void Start()
     {
         rBody = GetComponent<Rigidbody>();
-        if (IsTrainingMode() == false) 
+        if (IsSimulationMode()) 
         {
             string datetimeStr = System.DateTime.Now.ToString("yyyyMMdd_HHmmss");
             string filePath = Application.dataPath + "/Logs";
@@ -32,7 +32,7 @@ public class RollerAgent : Agent
 
     void OnApplicationQuit()
     {
-        if (IsTrainingMode() == false)
+        if (IsSimulationMode())
         {
             sw.Flush();
             sw.Close();
@@ -84,7 +84,7 @@ public class RollerAgent : Agent
         // Reached target
         if (distanceToTarget < 1.42f)
         {
-            if (IsTrainingMode() == false) SaveLog(1);
+            if (IsSimulationMode()) SaveLog(1);
             SetReward(1.0f);
             EndEpisode();
             return;
@@ -96,7 +96,7 @@ public class RollerAgent : Agent
             float distanceToActor = Vector3.Distance(this.transform.localPosition, actor.transform.localPosition);
             if (distanceToActor < 1.42f)
             {
-                if (IsTrainingMode() == false) SaveLog(2);
+                if (IsSimulationMode()) SaveLog(2);
                 SetReward(-1.0f);
                 EndEpisode();
                 break;
@@ -106,7 +106,7 @@ public class RollerAgent : Agent
         // Fell off platform
         if (this.transform.localPosition.y < 0)
         {
-            if (IsTrainingMode() == false) SaveLog(3);
+            if (IsSimulationMode()) SaveLog(3);
             SetReward(-1.0f);
             EndEpisode();
         }
@@ -120,13 +120,21 @@ public class RollerAgent : Agent
 
     public static bool IsTrainingMode()
     {
-        // return Academy.Instance.IsCommunicatorOn;
-        return false;
+        var envParameters = Academy.Instance.EnvironmentParameters;
+        float simulationMode = envParameters.GetWithDefault("simulation_mode", 0.0f);
+        return (Academy.Instance.IsCommunicatorOn == true && simulationMode != 1.0f) ? true : false;
+    }
+
+    public static bool IsSimulationMode()
+    {
+        var envParameters = Academy.Instance.EnvironmentParameters;
+        float simulationMode = envParameters.GetWithDefault("simulation_mode", 0.0f);
+        return (Academy.Instance.IsCommunicatorOn == false || simulationMode == 1.0f) ? true : false;
     }
 
     public void SaveLog(int status)
     {
-        if (IsTrainingMode()) return;
+        if (IsSimulationMode() == false) return;
 
         string message = "";
         string[] record = new string[6];
