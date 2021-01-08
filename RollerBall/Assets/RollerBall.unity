@@ -504,7 +504,6 @@ GameObject:
   - component: {fileID: 1661512710}
   - component: {fileID: 1661512709}
   - component: {fileID: 1661512711}
-  - component: {fileID: 1661512712}
   m_Layer: 0
   m_Name: RollerAgent
   m_TagString: Untagged
@@ -648,7 +647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 0
+    VectorObservationSize: 9
     NumStackedVectorObservations: 1
     VectorActionSize: 02000000
     VectorActionDescriptions: []
@@ -656,27 +655,9 @@ MonoBehaviour:
   m_Model: {fileID: 5022602860645237092, guid: 12edb4e7d62dd4f5598b005de26b0dd9, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
-  m_BehaviorName: VisualObservationRollerBall
+  m_BehaviorName: VectorObservationRollerBall
   TeamId: 0
   m_UseChildSensors: 1
---- !u!114 &1661512712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661512703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 282f342c2ab144bf38be65d4d0c4e07d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Camera: {fileID: 933777280}
-  m_SensorName: CameraSensor
-  m_Width: 84
-  m_Height: 84
-  m_Grayscale: 0
-  m_Compression: 1
 --- !u!1 &1772034638
 GameObject:
   m_ObjectHideFlags: 0

@@ -57,16 +57,25 @@ public class RollerAgent : Agent
         episodeCount++;
     }
 
-    // public override void CollectObservations(VectorSensor sensor)
-    // { 
-    //     // Target and Agent positions
-    //     sensor.AddObservation(Target.localPosition);
-    //     sensor.AddObservation(this.transform.localPosition);
+    public override void CollectObservations(VectorSensor sensor)
+    { 
+        float sumDistancesToActors = 0.0f;
 
-    //     // Agent velocity
-    //     sensor.AddObservation(rBody.velocity.x);
-    //     sensor.AddObservation(rBody.velocity.z);
-    // }
+        // Target and Agent positions
+        sensor.AddObservation(Target.localPosition);
+        sensor.AddObservation(this.transform.localPosition);
+
+        // sum of distances to actors
+        foreach (var actor in obstacle.obstacleObjs)
+        {
+            sumDistancesToActors += Vector3.Distance(this.transform.localPosition, actor.transform.localPosition);
+        }
+        sensor.AddObservation(sumDistancesToActors);
+
+        // Agent velocity
+        sensor.AddObservation(rBody.velocity.x);
+        sensor.AddObservation(rBody.velocity.z);
+    }
 
     public float speed = 10;
     public override void OnActionReceived(float[] vectorAction)
