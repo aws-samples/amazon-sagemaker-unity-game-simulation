@@ -25,7 +25,7 @@ class UnityEnvWrapper(gym.Env):
                 try:
                     unity_env = UnityEnvironment(
                                     env_name, 
-                                    no_graphics=True, 
+                                    no_graphics=False, 
                                     worker_id=self.worker_index, 
                                     additional_args=['-logFile', 'unity.log'])
                 except UnityWorkerInUseException:
@@ -37,7 +37,7 @@ class UnityEnvWrapper(gym.Env):
             while True:
                 try:
                     unity_env = default_registry[env_name].make(
-                        no_graphics=True,
+                        no_graphics=False,
                         worker_id=self.worker_index,
                         additional_args=['-logFile', 'unity.log'])
                 except UnityWorkerInUseException:
@@ -76,7 +76,7 @@ class MyLauncher(SageMakerRayLauncher):
               "lr": 0.0001,
               "sgd_minibatch_size": 100,
               "train_batch_size": 500,
-              "monitor": True,  # Record videos.
+              "monitor": False,  # Record videos.
               "model": {
                 "free_log_std": True
               },
