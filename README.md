@@ -19,7 +19,6 @@ You may need to download the version 2019.3.14.f1 version of Unity with Linux su
 This is how the sample game, **RollerBall** looks like. 
 
 ![Unity Hub_1](images/RollerBall1.png)
-![Unity Hub_2](images/RollerBall2.png)
 ![Unity Hub_3](images/RollerBall3.png)
 
 There are three important scripts, ObstacleManager.cs, RollerAgent.cs, and RollerBallConfig.json.
