@@ -3,6 +3,15 @@ This is a sample unity project for Unity Game Simulation with ML-Agents running 
 
 ## Preparation
 ### Download this repo
+![Github repo](images/DownloadRepo.png)
+First, download a zip file from the repo and open it. 
+You will find a folder called **unity-roller-ball-simulation-master**.
+
+### Unity
+![Unity Hub](images/AddProject.png)
+Start **Unity Hub**. In **Projects** window, press **Add** and select **RollerBall** folder in the folder described above. 
+
+
 
 
 
