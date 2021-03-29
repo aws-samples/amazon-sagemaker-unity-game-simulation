@@ -29,7 +29,7 @@ There are three important scripts, ObstacleManager.cs, RollerAgent.cs, and Rolle
 
 RollerBallConfig.json is found in Resources/Congig/. 
 
-![](images/Script3_loc2.png)
+![](images/Script3_loc1.png)
 
 ### Build the project for Linux platform
 Open Player Settings (menu: **Edit** > **Project Settings** > **Player**).
