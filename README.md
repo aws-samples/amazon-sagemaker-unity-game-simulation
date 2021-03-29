@@ -4,7 +4,7 @@ This is a sample unity project for Unity Game Simulation with ML-Agents running 
 ## Preparation
 ### Download this repo
 First, download a zip file from the repo and open it. 
-![Github repo](images/DownloadRepo.png){width=250px}
+![Github repo](images/DownloadRepo.png) <!-- .element height="50%" width="50%" -->
 You will find a folder called **unity-roller-ball-simulation-master**.
 
 ### Unity
