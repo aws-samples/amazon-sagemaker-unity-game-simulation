@@ -33,13 +33,10 @@ RollerBallConfig.json is found in Resources/Congig/.
 
 ### Build the project for Linux platform
 Open Player Settings (menu: **Edit** > **Project Settings** > **Player**).
-
-Under **Resolution and Presentation**:
-   - Ensure that **Run in Background** is checked.
+   - Under **Resolution and Presentation**, ensure that **Run in Background** is checked.
 
 Open the Build Settings window (menu:**File** > **Build Settings**).
-
-Select **Linux** as Target Platform 
+   - Select **Linux** as Target Platform 
    - (Optional) **Development Build** is checked. 
 
 ![Unity Hub_3](images/Build1.png)
