@@ -46,16 +46,56 @@ Select **Linux** as Target Platform
 
 Press **Build And Run**
 
-![Unity Hub_3](images/Build2.png)
+![Unity Hub_4](images/Build2.png)
 
-We name the sample collection of built files as **RollerBall_build_000**.
+We name a collection of built files as **RollerBall_build_000**.
 
 Here is how the built files look like in the **RollerBall** folder. 
 
-![Unity Hub_3](images/Build3.png)
+![Unity Hub_5](images/Build3.png)
 
-Upload built files to S3. 
+Copy the flowing files and folder and upload them to S3. 
+   - LinuxPlayer_s.debug	
+   - RollerBall_build_000_Data/	
+   - RollerBall_build_000.x86_64	
+   - UnityPlayer_s.debug	
+   - UnityPlayer.so
 
-![Unity Hub_3](images/S3.png)
+![Unity Hub_6](images/S3.png)
+
+Please take note of S3 URI. You are going to need that for **rl_unity_cloud_simulation_sample.ipynb** 
+
+## Amazon SageMaker RL
+### Amazon SageMaker RL on SageMaker notebook
+Start **Amazon SageMaker** and create **Notebook Instance**. (menu:**Notebook** > **Notebook instance** > **Create notebook instance**).
+   - t3.xlarge instance is adequate. 
+	
+Click **Open Jupyter** and select **SageMaker Examples**
+
+SageMaker provides dozens of sample notebooks. You can find a samle notebook named **rl_unity_ray** under **Reinforcement Learning** tab. 
+
+![SageMaker_1](SageMakerExample1.png)
+
+Select **rl_unity_ray** and create a directry.
+
+```
+/home/ec2-user/SageMaker/rl_unity_ray_YYYY-MM-DD
+```
+
+Go to **rl_unity_ray_YYYY-MM-DD**
+
+![SageMaker_1](SageMakerRLUnityRay.png)
+
+Upload following files from the original repo.
+   - rl_unity_cloud_simulation_sample.ipynb
+   - src/evaluate-unity.py
+   - src/train-unity.py
+
+### Proceed rl_unity_cloud_simulation_sample.ipynb
+
+
+
+
+
 
 
