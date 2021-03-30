@@ -71,7 +71,7 @@ Click **Open Jupyter** and select **SageMaker Examples**
 
 SageMaker provides dozens of sample notebooks. You can find a samle notebook named **rl_unity_ray** under **Reinforcement Learning** tab. 
 
-![SageMaker_1](SageMakerExample1.png)
+![SageMaker_1](images/SageMakerExample1.png)
 
 Select **rl_unity_ray** and create a directry.
 
@@ -81,7 +81,7 @@ Select **rl_unity_ray** and create a directry.
 
 Go to **rl_unity_ray_YYYY-MM-DD**
 
-![SageMaker_1](SageMakerRLUnityRay.png)
+![SageMaker_1](images/SageMakerRLUnityRay.png)
 
 Upload following files from the original repo.
    - rl_unity_cloud_simulation_sample.ipynb
