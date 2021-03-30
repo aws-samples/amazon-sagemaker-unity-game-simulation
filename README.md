@@ -73,7 +73,7 @@ SageMaker provides dozens of sample notebooks. You can find a samle notebook nam
 
 ![SageMaker_1](images/SageMakerExample1.png)
 
-Select **rl_unity_ray** and create a directry.
+Select **rl_unity_ray** and press **Use** botton. A new directry will be created.
 
 ```
 /home/ec2-user/SageMaker/rl_unity_ray_YYYY-MM-DD
@@ -89,6 +89,7 @@ Upload following files from the original repo.
    - src/train-unity.py
 
 ### Proceed rl_unity_cloud_simulation_sample.ipynb
+You are ready to start the notebook. 
 
 
 
