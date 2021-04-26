@@ -11,7 +11,7 @@ from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.exception import UnityWorkerInUseException
 from mlagents_envs.registry import default_registry
 from gym_unity.envs import UnityToGymWrapper
-
+import gym.wrappers
 
 class UnityEnvWrapper(gym.Env):
     def __init__(self, env_config):
@@ -45,7 +45,8 @@ class UnityEnvWrapper(gym.Env):
                 else:
                     break
             
-        self.env = UnityToGymWrapper(unity_env) 
+        self.env = UnityToGymWrapper(unity_env, uint8_visual=True) 
+        self.env = gym.wrappers.Monitor(env=self.env, directory="/opt/ml/output/intermediate/data/", force=True)
         self.action_space = self.env.action_space
         self.observation_space = self.env.observation_space
 
@@ -53,7 +54,7 @@ class UnityEnvWrapper(gym.Env):
         return self.env.reset()
 
     def step(self, action):
-        return self.env.step(action)
+        return self.env.step(action)      
 
 
 class MyLauncher(SageMakerRayLauncher):
@@ -70,15 +71,18 @@ class MyLauncher(SageMakerRayLauncher):
             },
             "config": {
               "env": "unity_env",
-              "gamma": 0.995,
-              "kl_coeff": 1.0,
-              "num_sgd_iter": 20,
-              "lr": 0.0001,
-              "sgd_minibatch_size": 100,
-              "train_batch_size": 500,
-              "monitor": False,  # Record videos.
+              "lambda": 0.95,
+              "gamma": 0.99,
+              "rollout_fragment_length": 256,
+              "lr": 1e-4,
+              "clip_param": 0.2,
+              "entropy_coeff": 0.005,
+              "num_sgd_iter": 3,
+              "sgd_minibatch_size": 1024,
+              "train_batch_size": 10240,
+              "monitor": True,  # Record videos.
               "model": {
-                "free_log_std": True
+                #"free_log_std": True
               },
               "env_config":{
                 "env_name": "Basic"
