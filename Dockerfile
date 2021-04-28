@@ -22,8 +22,8 @@ RUN apt-get --purge remove xvfb -y
 RUN wget http://security.ubuntu.com/ubuntu/pool/main/libx/libxfont/libxfont1_1.5.1-1ubuntu0.16.04.4_amd64.deb && \
   yes | gdebi libxfont1_1.5.1-1ubuntu0.16.04.4_amd64.deb
   
-RUN  wget http://security.ubuntu.com/ubuntu/pool/universe/x/xorg-server/xvfb_1.18.4-0ubuntu0.11_amd64.deb && \
-  yes | gdebi xvfb_1.18.4-0ubuntu0.11_amd64.deb
+RUN  wget http://security.ubuntu.com/ubuntu/pool/universe/x/xorg-server/xvfb_1.18.4-0ubuntu0.12_amd64.deb && \
+  yes | gdebi xvfb_1.18.4-0ubuntu0.12_amd64.deb
 
 ############################################
 # Test Installation
