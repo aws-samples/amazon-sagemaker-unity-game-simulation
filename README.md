@@ -87,6 +87,7 @@ Upload the following files of this repo to the directory above.
    - rl_unity_cloud_simulation_sample.ipynb
    - Dockerfile
    - entrypoint.sh
+
 Replace the following files of the directory above with those in this repo.
    - src/evaluate-unity.py
    - src/train-unity.py
