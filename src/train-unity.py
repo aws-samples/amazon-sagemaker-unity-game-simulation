@@ -45,8 +45,7 @@ class UnityEnvWrapper(gym.Env):
                 else:
                     break
             
-        self.env = UnityToGymWrapper(unity_env, uint8_visual=True) 
-        self.env = gym.wrappers.Monitor(env=self.env, directory="/opt/ml/output/intermediate/data/", force=True)
+        self.env = UnityToGymWrapper(unity_env) 
         self.action_space = self.env.action_space
         self.observation_space = self.env.observation_space
 
@@ -80,7 +79,7 @@ class MyLauncher(SageMakerRayLauncher):
               "num_sgd_iter": 3,
               "sgd_minibatch_size": 1024,
               "train_batch_size": 10240,
-              "monitor": True,  # Record videos.
+              "monitor": False,  # Record videos.
               "model": {
                 #"free_log_std": True
               },
