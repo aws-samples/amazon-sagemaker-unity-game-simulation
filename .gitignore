@@ -1,0 +1,23 @@
+# OS generated files
+.DS_Store
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+Logs.meta
+!Library/LastSceneManagerSetup.txt
+*.sln
+*.csproj
+*.log
+
+# Application generated files
+RollerBall/Assets/ML-Agents/Timers/RollerBall_timers.json
+RollerBall/Assets/ML-Agents/Timers/RollerBall_timers.json.meta
+
+# Visual Studio Code
+.vscode
+.vs
